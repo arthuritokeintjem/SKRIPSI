@@ -61,6 +61,7 @@ This creates a consistent, validated daily series ready for preprocessing.
 File: preprocessing_daily_newest.ipynb
 
 This stage prepares data for forecasting models through:
+
 ✔ Wide Format Transformation
 Convert long-format SP2KP data into a unified wide time-series dataset where each column represents a commodity.
 
@@ -81,6 +82,7 @@ processed_daily_wide.csv - the final modeling-ready dataset.
 File: modeling_daily_newest.ipynb
 
 The modeling pipeline includes:
+
 🔹 ARIMA Manual Implementation
 1. Custom differencing
 2. Manual seasonal handling
