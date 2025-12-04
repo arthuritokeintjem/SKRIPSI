@@ -9,6 +9,7 @@ This repository contains the complete implementation, datasets, scripts, and exp
 The study uses official daily price records from SP2KP - Ministry of Trade, Republic of Indonesia, covering 16 essential food commodities. All deep learning architectures (LSTM, GRU) and ARIMA components are implemented manually without invoking model-ready libraries, following the academic requirements of the Bachelor Thesis.
 
 🎯 Project Overview
+
 The goal of this thesis project is to evaluate and compare the performance of traditional statistical models (ARIMA) with neural sequence models (LSTM and GRU) for forecasting daily prices of essential food commodities.
 Since food prices in Indonesia exhibit high volatility, especially for horticultural products like chilies and onions, accurate forecasting is highly relevant for:
 1. Government price stabilization policies
@@ -19,9 +20,11 @@ Since food prices in Indonesia exhibit high volatility, especially for horticult
 This repository implements the full pipeline, from data acquisition → cleaning → preprocessing → modeling → evaluation → forecasting.
 
 🚀 Workflow Pipeline
+
 The project follows a clear and modular workflow consisting of four main stages:
 
 1️⃣ Data Acquisition - SP2KP API
+
 File: data_acquisition_sp2kp.py
 
 This script performs the official data acquisition process by:
@@ -41,6 +44,7 @@ Each acquired record contains:
 This provides a high-fidelity daily dataset based on authoritative government sources.
 
 2️⃣ Data Cleaning
+
 File: data_cleaning.ipynb
 
 Data acquired from SP2KP may contain inconsistencies. This script performs:
@@ -53,6 +57,7 @@ Data acquired from SP2KP may contain inconsistencies. This script performs:
 This creates a consistent, validated daily series ready for preprocessing.
 
 3️⃣ Data Preprocessing
+
 File: preprocessing_daily_newest.ipynb
 
 This stage prepares data for forecasting models through:
@@ -72,6 +77,7 @@ Limits extreme price fluctuations without discarding observations.
 processed_daily_wide.csv - the final modeling-ready dataset.
 
 4️⃣ Modeling & Evaluation (ARIMA, LSTM, GRU From Scratch)
+
 File: modeling_daily_newest.ipynb
 
 The modeling pipeline includes:
@@ -122,6 +128,7 @@ The modeling script includes functions to generate:
 3. Forecast projection plots
 
 🔧 Installation & Usage
+
 Requirements
 1. Python 3.8+
 2. numpy
