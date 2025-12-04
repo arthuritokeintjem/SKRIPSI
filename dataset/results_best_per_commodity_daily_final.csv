@@ -1,0 +1,17 @@
+commodity,model,config,MAPE_test,MAE_test,RMSE_test
+Bawang Merah,GRU,"{'window': 21, 'units': 16}",1.923428206,756.032951,1155.971642
+Bawang Putih Honan,LSTM,"{'window': 30, 'units': 16}",0.160709623,48.21288686,48.21288686
+Beras Medium,GRU,"{'window': 7, 'units': 32}",0.197697672,28.14989106,48.9098187
+Beras Premium,GRU,"{'window': 14, 'units': 32}",0.304472906,46.9533839,63.20879382
+Cabai Merah Besar,GRU,"{'window': 30, 'units': 16}",5.71818632,2133.402097,3012.747652
+Cabai Merah Keriting,GRU,"{'window': 21, 'units': 16}",5.690325139,2267.486153,3344.601183
+Cabai Rawit Merah,GRU,"{'window': 30, 'units': 32}",5.905060303,1531.202525,2191.754302
+Daging Ayam Ras,GRU,"{'window': 21, 'units': 32}",1.071570541,384.8464014,524.3664364
+Daging Sapi Paha Belakang,ARIMA,"p=0, d=1, D=0",0.145766436,177.8350515,204.6008689
+Gula Pasir Curah,GRU,"{'window': 14, 'units': 32}",0.208733787,33.91525607,102.4601504
+Kedelai Impor,GRU,"{'window': 21, 'units': 16}",0.151009654,19.62698702,71.43267983
+Minyak Goreng Sawit Curah,GRU,"{'window': 30, 'units': 32}",0.331164654,56.29799119,56.2980409
+Minyak Goreng Sawit Kemasan Premium,GRU,"{'window': 21, 'units': 32}",0.275365276,57.64404203,164.4467443
+Minyakita,GRU,"{'window': 7, 'units': 16}",1.238023143,203.3993346,334.7316203
+Telur Ayam Ras,GRU,"{'window': 14, 'units': 16}",1.065062261,288.5845466,426.4927227
+Tepung Terigu,ARIMA,"p=2, d=1, D=1",0,0,0
